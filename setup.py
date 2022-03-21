@@ -15,7 +15,7 @@ setup(
                       'click',  # adept_envs dependency
                       'dm_control==0.0.364896371',
                        #'mjrl @ git+git://github.com/aravindr93/mjrl@master#egg=mjrl'],
-                      'mjrl@git+https://github.com/aravindr93/mjrl.git@master#egg=mjrl']
+                      'mjrl@git+https://github.com/aravindr93/mjrl.git@master#egg=mjrl'],
     packages=find_packages(),
     package_data={'d4rl': ['locomotion/assets/*',
                            'hand_manipulation_suite/assets/*',
